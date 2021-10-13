@@ -1,0 +1,16 @@
+{
+  "name": "@example/framework-solid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "vercel-dev": "vercel dev",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^0.20.11",
+    "@astrojs/renderer-solid": "0.1.1"
+  }
+}
