@@ -1,0 +1,13 @@
+---
+export async function getStaticPaths() {
+  return [
+    { params: { pid: '1' } },
+    { params: { pid: '2' } }
+  ];
+}
+const {pid} = Astro.request.params;
+---
+
+<body><h1>{pid} </h1></body>
+
+
